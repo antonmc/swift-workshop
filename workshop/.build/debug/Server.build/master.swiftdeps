@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0-dev (LLVM b361b0fc05, Clang 11493b0f62, Swift 24a0c3de75)"
+options: "3f45ec7010731af989462d04c6b80488"
+build_time: [517517813, 789905000]
+inputs:
+  "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Server/main.swift": [517517731, 0]

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/master.swiftdeps"
+  },
+  "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Server/main.swift": {
+    "dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/main.d",
+    "object": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/main.swift.o",
+    "swiftmodule": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/main.swiftdeps"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/master.swiftdeps"
+  },
+  "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/Address.swift": {
+    "dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Address.d",
+    "object": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Address.swift.o",
+    "swiftmodule": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Address~partial.swiftmodule",
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Address.swiftdeps"
+  },
+  "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/ArgumentsParser.swift": {
+    "dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/ArgumentsParser.d",
+    "object": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/ArgumentsParser.swift.o",
+    "swiftmodule": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/ArgumentsParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/ArgumentsParser.swiftdeps"
+  },
+  "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/FD.swift": {
+    "dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/FD.d",
+    "object": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/FD.swift.o",
+    "swiftmodule": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/FD~partial.swiftmodule",
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/FD.swiftdeps"
+  },
+  "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/Socket.swift": {
+    "dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Socket.d",
+    "object": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Socket.swift.o",
+    "swiftmodule": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Socket.swiftdeps"
+  },
+  "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/StringUtils.swift": {
+    "dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/StringUtils.d",
+    "object": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/StringUtils.swift.o",
+    "swiftmodule": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/StringUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/StringUtils.swiftdeps"
+  }
+}

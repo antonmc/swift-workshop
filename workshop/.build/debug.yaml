@@ -1,0 +1,39 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  default: [<Server.module>, <Utils.module>, <Server.exe>]
+  test: []
+commands: 
+  <Server.module>:
+    tool: swift-compiler
+    executable: /Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-03-01-a.xctoolchain/usr/bin/swiftc
+    module-name: Server
+    module-output-path: /Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.swiftmodule
+    inputs: [<Utils.module>]
+    outputs: [<Server.module>, "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/main.swift.o"]
+    import-paths: /Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug
+    temps-path: /Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build
+    objects: ["/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/main.swift.o"]
+    other-args: ["-j8", "-Onone", "-g", "-D", SWIFT_PACKAGE, "-enable-testing", "-F", /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks, "-target", "x86_64-apple-macosx10.10", "-sdk", /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk]
+    sources: ["/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Server/main.swift"]
+    is-library: false
+  <Utils.module>:
+    tool: swift-compiler
+    executable: /Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-03-01-a.xctoolchain/usr/bin/swiftc
+    module-name: Utils
+    module-output-path: /Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.swiftmodule
+    inputs: []
+    outputs: [<Utils.module>, "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Address.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/ArgumentsParser.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/FD.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Socket.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/StringUtils.swift.o"]
+    import-paths: /Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug
+    temps-path: /Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build
+    objects: ["/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Address.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/ArgumentsParser.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/FD.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Socket.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/StringUtils.swift.o"]
+    other-args: ["-j8", "-Onone", "-g", "-D", SWIFT_PACKAGE, "-enable-testing", "-F", /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks, "-target", "x86_64-apple-macosx10.10", "-sdk", /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk]
+    sources: ["/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/Address.swift", "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/ArgumentsParser.swift", "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/FD.swift", "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/Socket.swift", "/Users/antonm/Desktop/code/swift-workshop/workshop/Sources/Utils/StringUtils.swift"]
+    is-library: true
+  <Server.exe>:
+    tool: shell
+    description: Linking Server
+    inputs: [<Server.module>, <Utils.module>]
+    outputs: [<Server.exe>, "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server"]
+    args: ["/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-03-01-a.xctoolchain/usr/bin/swiftc", "-emit-executable", "-g", "-target", "x86_64-apple-macosx10.10", "-sdk", /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk, "-o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Server.build/main.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Address.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/ArgumentsParser.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/FD.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/Socket.swift.o", "/Users/antonm/Desktop/code/swift-workshop/workshop/.build/debug/Utils.build/StringUtils.swift.o"]

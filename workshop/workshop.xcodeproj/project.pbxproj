@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2266EDBE1CE4FDAD00B1D04F /* manifest.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = manifest.yml; sourceTree = "<group>"; };
+		2266EDBF1CE4FDAD00B1D04F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		2266EDC01CE4FDAD00B1D04F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2266EDC11CE4FDAD00B1D04F /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2266EDB31CE4EE9200B1D04F = {
+			isa = PBXGroup;
+			children = (
+				2266EDBE1CE4FDAD00B1D04F /* manifest.yml */,
+				2266EDBF1CE4FDAD00B1D04F /* Package.swift */,
+				2266EDC01CE4FDAD00B1D04F /* README.md */,
+				2266EDC11CE4FDAD00B1D04F /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		2266EDB41CE4EE9200B1D04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 2266EDB71CE4EE9200B1D04F /* Build configuration list for PBXProject "workshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2266EDB31CE4EE9200B1D04F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2266EDB81CE4EE9200B1D04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2266EDB91CE4EE9200B1D04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2266EDB71CE4EE9200B1D04F /* Build configuration list for PBXProject "workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2266EDB81CE4EE9200B1D04F /* Debug */,
+				2266EDB91CE4EE9200B1D04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2266EDB41CE4EE9200B1D04F /* Project object */;
+}

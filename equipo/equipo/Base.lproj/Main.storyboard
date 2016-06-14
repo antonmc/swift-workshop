@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="equipo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0Hk-qH-lHI">
+                                <rect key="frame" x="-7" y="242" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="l11-xZ-7yi"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Hk-qH-lHI" secondAttribute="bottom" constant="230" id="2wK-xJ-xaq"/>
+                            <constraint firstItem="0Hk-qH-lHI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4J0-zQ-e3F"/>
+                            <constraint firstItem="0Hk-qH-lHI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-27" id="6nK-h4-UdB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Hk-qH-lHI" secondAttribute="bottom" id="Iit-Y4-iYB"/>
+                            <constraint firstItem="0Hk-qH-lHI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LMb-qO-oSo"/>
+                            <constraint firstItem="0Hk-qH-lHI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="222" id="dW9-xB-hJU"/>
+                            <constraint firstItem="0Hk-qH-lHI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ggy-YS-5Sv"/>
+                            <constraint firstItem="0Hk-qH-lHI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irz-VS-Xae"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Hk-qH-lHI" secondAttribute="trailing" id="wb3-g5-IsV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="teamMap" destination="0Hk-qH-lHI" id="ohb-IO-k2y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="316" y="357"/>
+        </scene>
+    </scenes>
+</document>
